@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+#contenedor1{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#cargando{
+    width: 100px;
+}
+#alien{
+    width: 300px;
+}
+#contenedor2{
+    background-color: orange;
+    text-align: center;
+}
+#contenedor2 img{
+    width: 150px;
+}
+#contenedor3{
+    background-color: aqua;
+}
+#contenedor3 img{
+    width: 300px;
+}
+#edicion1{
+    filter: grayscale(100%);
+}
+#edicion2{
+    filter: blur(5px);
+}
+#edicion3{
+    filter: invert(90%);
+}
+#edicion4{
+    filter: sepia(100%);
+}
+#edicion5{
+    filter: opacity(90%);
+}
+#contenedor4{
+    background-color: blue;
+    text-align: center;
+}
+#contenedor4 img{
+    width: 400px;
+    padding: 0px;
+    border-radius: 50%;
+    border: solid black 4px;
+}
+#contenedor5{
+    background-color: green;
+    text-align: center;
+}
+#contenedor5 img{
+    width: 250px;
+}
+#comportamiento1{
+    cursor: pointer;
+    transition: 2s;
+}
+#comportamiento1:hover{
+    filter: grayscale(100%);
+}
+#comportamiento2{
+    cursor: pointer;
+    transition: 2s;
+}
+#comportamiento2:hover{
+    transform: scale(75%);
+}
+#comportamiento3{
+    cursor: pointer;
+    transition: 2s;
+}
+#comportamiento3:hover{
+    filter: invert(100%);
+}
+#comportamiento4{
+    cursor: pointer;
+    transition: 2s;
+}
+#comportamiento4:hover{
+    transform: rotate3d(180deg);
+}

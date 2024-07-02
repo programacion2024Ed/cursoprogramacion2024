@@ -1,22 +1,22 @@
 body{
-    background-color: blueviolet;
     margin: 0;
+    background-color: brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 #contenedor{
+    width: 60%;
     background-color: white;
     text-align: left;
     margin: auto;
-    width: 60%;
-    margin: 0 auto;
+    text-align: left;
     min-height: 100vh;
 }
 header h1{
-    margin: 0;
+    margin: 0%;
+    padding: 25px;
 }
 nav{
-    background-color: gray;
+    background-color: grey;
     padding: 16px;
     box-sizing: border-box;
     color: white;
@@ -24,5 +24,53 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 10px ;
 }
+form{
+    padding: 25px;
+}
+form span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 16px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form input{
+    display: block;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid 3px blueviolet;
+    transition: 0.3s;
+    margin-bottom: 16px;
+
+}
+form input:focus{
+    background-color:  lightgray;
+}
+form span.genero label,form span.genero input{
+    display: inline;
+
+}
+form span.cursos label,form span.cursos input{
+    display: inline;
+}
+form select{
+margin-bottom: 16px;
+}
+form button{
+    padding: 7px;
+    margin-top: 16px;
+    display: block;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 0
+    ;
+}
+
+
