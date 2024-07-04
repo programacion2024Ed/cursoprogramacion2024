@@ -1,0 +1,30 @@
+ body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+
+
+
+ }
+ #contenedor{
+    background-color: brown;
+    width: 70%;
+    min-width: 700px;
+    max-width: 1200px;
+ }
+    header{
+        display: flex;
+        justify-content:center ;
+        align-items:center ;
+        gap: 2em;
+        margin: 2em 0;
+
+    }
+   header img{
+    width: 90px;
+
+
+   } 
+
