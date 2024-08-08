@@ -34,4 +34,84 @@ if(semaforo == "verde"){
     console.error("semaforo roto");
 }
 
+//
 
+/* let monto = window.prompt("Monto de la compra");
+
+if(monto > 50000){
+    let montofinal = monto *0.75;
+    console.log("monto final: " + montofinal);
+}else if(Monto > 20000){
+    let montofinal = monto * 0.9;
+    console.log("montofinal:" + montofinal);
+}else{
+    console.log("montofinal:" + monto);
+} */   
+
+
+
+    /* let edad = window.prompt("ingrese su edad")
+
+    let resp;
+    if(edad >= 18){
+        resp = "es mayor de edad";
+    }else{
+        resp = " es menor de edad";
+    }
+
+    console.log(resp); */
+
+
+    let resp2 = edad >= 18 ? "Mayor":"Menor";
+
+    console.log(resp2);
+
+    // operadores
+    /*  let valor1 = true;
+     let valor2 = false;
+     console.log(valor1 && valor2);
+     console.log(valor1 || valor2); */
+     if(10 == 10 && 20 == 20){
+        console.log("los numeros coinciden");
+    }else{
+        console.log("los numeros coinciden");
+        }
+        // ejercicio - llevando mas de 10 pord  por un total superior a $20.000 aplicar un descuento del 20% al total
+
+        let cantidad = window.prompt("cantidad de productos");
+        let valorcompra = window.prompt("total de la compra");
+
+        /* if(cantidad >= 10 && valorcompra >= 20000){
+            let valorfinal = valorcompra *0.8;
+            console.log("valor final con descuento" + valorfinal)
+} else {
+    console.log("valor final sin descuento:" + valorcompra) */
+
+
+    // switch
+
+    let colorDelsemaforo = Window.prompt("color del semaforo"); 
+
+    switch (colorDelsemaforo){
+        case "verde":
+            console.log("Avanzar");
+            break;
+        case "amarillo":
+             console.log("precaucion");
+             break;
+        case " rojo":
+             console.log("detenerse");
+             break; 
+        default: 
+             console.log("semaforo roto");
+             break;
+             
+
+
+    }
+
+
+
+
+
+   
