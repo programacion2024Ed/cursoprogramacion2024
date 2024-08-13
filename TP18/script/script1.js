@@ -11,11 +11,8 @@ holaMundoDec();
 //Funcion de expresion
 
 const holaMundoExp = function(){
-    console.log(" Hola mundo (local/anonima/expresion)");
-}
-
+    console.log(" Hola mundo (local/anonima/expresion)");}
 holaMundoExp();
-
 // Return
 function calculo(){
     let suma = 3 + 3;
@@ -58,3 +55,18 @@ function suma(numero1, numero2){
   const sumador =  (a,b) =>  a + b;
 
   console.log(sumador(5,6));
+
+  // Callback
+
+  const sumar = (a,b) => a + b;
+  const restar = (a,b) => a - b;
+  const multiplicar = (a,b) => a * b;
+  const dividir = (a,b) => a / b;
+
+  const calculadora = (a,b, cb) => cb(a, b);
+     
+ console.log(calculadora(21 , 7,sumar));
+ console.log(calculadora(14 , 9,restar));
+ console.log(calculadora(21 , 7,multiplicar));
+
+  
