@@ -28,3 +28,25 @@ separar.forEach((dato,i)=>{
 }
 )
 console.log(separar);
+
+//Metodo find
+
+let buscar = items.find(dato =>  dato === "verde");
+console.log(buscar);
+
+let buscarI = items.findIndex(dato => dato === "verde" );
+console.log(buscarI);
+
+//Metodo reduce
+let total = numeros.reduce((acumulador,numero) => {return acumulador + numero}) ;
+console.log(total);
+
+
+// Vaciar
+
+console.log(items);
+
+// Array de Arrays
+
+let datos = [["Edwin", 15963376],["Ronal",4223025],["Carlos",1588880]];
+console.log(datos)
