@@ -1,23 +1,19 @@
 body{
     margin: 0;
-    background-color: brown;
+    background-color: yellowgreen;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#contenedor{
-    width:60%;
-    background-color: white;
-    text-align: left;
-    margin: auto;
-    text-align: left;
-    min-height: 100vh;
-}
-header h1{
-    margin: 0%;
-    padding: 25px;
-}
-nav{
-    background-color: grey;
-    padding: 16px;
-    box-sizing: border-box;
-    color: aquamarine;
-}
+ h1{
+    color: green;
+ }
+
+ .boton{
+     background-color: blue;
+     padding: 1em;
+     width: fit-content;
+     margin-bottom: 1em;
+     cursor: pointer;
+ }
+
+ 
+
