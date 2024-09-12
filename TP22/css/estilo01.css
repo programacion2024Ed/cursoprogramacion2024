@@ -4,7 +4,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
  h1{
-    color: green;
+    color: yellow;
  }
 
  .boton{
@@ -13,7 +13,16 @@ body{
      width: fit-content;
      margin-bottom: 1em;
      cursor: pointer;
+     display: inline-block;
  }
+
+ .salida{
+    border:1px white solid;
+    width:fit-content;
+    padding: 15px;
+ }
+
+ 
 
  
 
