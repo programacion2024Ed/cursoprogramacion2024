@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    color: white;
+}
+input{
+    margin: 10px;
+}
+div{
+    margin: 10px;
+    color: white;
+}

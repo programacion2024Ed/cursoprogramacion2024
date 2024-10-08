@@ -1,25 +1,55 @@
- document.querySelector("#btnconsola").addEventListener("click",()=>{
-    console.log("click a boton1")
- })
+document.querySelector("#consola").addEventListener("click", () => {
+console.log("hice click")    
+}) 
+document.querySelector("#alerta").addEventListener( "click" , () => {
+    window.alert("alerta")
+})
 
- document.querySelector("#btnalerta").addEventListener("click",()=>{
-    window.alert("click a boton cerca") 
- })
+document.querySelector("#documento").addEventListener( "click" , () => {
+        
+        document.querySelector("#contenedor").innerHTML += `<br> clik 1`
+     
+})
+ let cl = 0
+ document.querySelector("#contador").addEventListener( "click" , () =>{
+      cl++  
+      document.querySelector("#contenedor2").textContent = cl
+})
 
- document.querySelector("#btndocumento").addEventListener("click",()=>{
-   document.querySelector("#salidas").textContent +="click1"
- })
+let val
+document.querySelector("form").addEventListener("submit",(e) => {
+    e.preventDefault();
+    let validacion = validarForm();
+    if(validacion){
+        val = "validacion aceptada"
+        console.log("Enviar formulario")
+    }else{
+        val = "validacion rechazada"
+        console.log("Validacion rechazada")
+    }
+    document.querySelector("#contenedor3").textContent = val
+});
+function validarForm(){
+    let numero = document.querySelector("#numero")
+if(isNaN(numero.value)){
 
- document.querySelector("#btnhaceclicks").addEventListener("click",()=>{
-   acumulador++
-    document.querySelector("#salida").textContent =acumulador
- })
- let acumulador=0
+    window.alert("El campo dni solo acepta numeros")
+    return false
+}
 
- document.querySelector("#btnvalidar").addEventListener("click",()=>{
-    let valor = document.querySelector("#letras").value
-    console.log(valor)
+    return true
+}
 
-    
-   
- })
+
+
+/* document.querySelector("form").addEventListener("submit",(e) => {
+    e.preventDefault();
+    let validacion = validarForm();
+    if(validacion){
+        console.log("Enviar formulario")
+    }else{
+        console.log("Validacion rechazada")
+    }
+     
+});
+ */

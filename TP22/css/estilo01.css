@@ -1,28 +1,39 @@
 body{
-    margin: 0;
-    background-color: yellowgreen;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
 }
- h1{
-    color: yellow;
- }
+div{
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 9px;
+    margin-bottom: 9px;
 
- .boton{
-     background-color: blue;
-     padding: 1em;
-     width: fit-content;
-     margin-bottom: 1em;
-     cursor: pointer;
-     display: inline-block;
- }
-
- .salida{
-    border:1px white solid;
-    width:fit-content;
-    padding: 15px;
- }
-
- 
-
- 
-
+}
+button{
+    background-color: rgb(35, 73, 35);
+    transition: 2s;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    background-color: blue;
+}
+#contenedor,#contenedor2,#contenedor3 {
+    width: 300px;
+    
+    border: white 1px solid;
+    font-size: 20px;
+    padding: 20px;
+}
+form input{
+    margin-bottom: 9px;
+}
+/* #contenedor2{
+    width: 300px;
+    min-height: 50px;
+    border: white 1px solid;
+}
+#contenedor3{
+    width: 300px;
+    min-height: 50px;
+    border: white 1px solid;
+} */

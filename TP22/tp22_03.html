@@ -1,51 +1,35 @@
 <!DOCTYPE html>
-<html lang="es-AR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modificar elementos HTML</title>
+    <title>Modificar</title>
     <link rel="stylesheet" href="css/estilo03.css">
 </head>
 <body>
-    <H1>Distribucion</H1>
-    <div id="distribucion">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <span>
-        <button id="vertical">Vertical</button>
-        <button id="horizontal">Horizontal</button>
-    </span>
-    <h1>Color</h1>
-    <div id="color" class="bloque">
-        cambiar color de fondo
-        <span>
-            <button id="colorRojo">Rojo</button>
-            <button id="colorVerde">Verde</button>
-        </span>
-    </div>
+    <h2>Distribucion</h2>
+        <div id="cajas">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <button id="boton1" class="botones1">Vertical</button>
+        <button id="boton2" class="botones1">Horizontal</button>
+    <h2>Estilos</h2>
+        <div id="cajas2">
+            <h3>Contenedor con cambio de color de fondo</h3>
+            <button id="boton3">Rojo</button>
+            <button id="boton4">Azul</button>
+        </div>
+        <div id="cajas3">
+            <div id="texto1">Modificar color y tamaño de texto</div>
+            <button id="boton5" class="tam">-</button>
+            <button id="boton6" class="tam" >+</button><br>
+            <input type="color" name="" id="color">
+        </div>
 
-    <div id="texto" class="bloque">
-        Modificar color y tamaño de texto
-        <span>
-            <button id="textoReducir">-</button>
-            <button id="textoAgrandar">+</button>
-        </span>
-        <span>
-            <input type="color" id="textoColor">
-        </span>
-    </div>
-     <h1>Mostrar</h1>
-     <div id="verOcultar" class="bloque">Contenedor que se muestra y se oculta con JS</div>
-     <span>
-        <button id="mostrar">Mostrar</button>
-        <button id="ocultar">Ocultar</button>
-     </span>
-     
-    <script src="script/script03.js"></script>
+
+<script src="script/script03.js"></script>
 </body>
 </html>

@@ -3,33 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios en js</title>
-    <link rel="stylesheet" href="estilo04.css">
+    <title>Ejercicios en JS</title>
+    <link rel="stylesheet" href="css/estilo04.css">
 </head>
 <body>
-    <div class="ejercicio">
+    <div class="ejercicio" id="ej1">
         <h1>Saludo personalizado</h1>
-        <input type="text" id="nombre"placeholder="Ingrese su nombre">
+        <input  type="text" name="" id="nombre" placeholder="Ingrese su nombre">
         <span>
             <div class="btn" id="btnEj1">Saludar</div>
-            <div class="salida" id="salidaEj1">...respuesta</div>
+            <div class="salida" id="salidaEj1">Respuesta</div>
         </span>
     </div>
-    
     <div class="ejercicio" id="ej2">
         <h1>Calculadora de ingredientes</h1>
-        Receta por persona: <br>
-        * 1/2 kilo de papas  <br>
-        * 100 ml de leche  <br>
-        * 30 grs de manteca  <br>
-        * 1 huevo  <br>
-        <input type="text" id="comensales"
-        placeholder="cantidad de comensalea">
+        Receta por persona <br>
+        * 1/2 kilo de papas <br>
+        * 100ml de leche <br>
+        * 30 gr de manteca <br>
+        * 1 huevo <br>
+        <input type="text" id="comensales" placeholder="Cantidad de comensales">
         <span>
-            <div class="btn" id="btnEj2">Calcular</div>
-            <div class="salida" id="salidaEj2">...respuesta</div>
+            <div class="btn" id="btnEj2">Calcular </div>
+            <div class="salida" id="salidaEj2">...Respuesta</div>
         </span>
     </div>
-    <script src="script04.js"></script>
+        <div class="ejercicio" id="ej3" >
+            <h1>Acumulador de nombres</h1>
+            <input type="text" id="asistentes">
+            <span>
+                <div class="btn" id="btnEj3-1">Agregar</div>
+                <div class="btn" id="btnEj3-2">Ver</div>
+                <div class="salida" id="salidaEje3">...respuesta</div>
+            </span>
+        </div>
+        <div class="ejercicio" id="ej4">
+            <h1>Carrito de compras</h1>
+            <span>Items: <span id="contador">0</span></span>
+            <span>
+                <div class="producto">Remera Roja <div class="btn" id="sumarProd0">Agregar</div></div>
+                <div class="producto">Remera Verde <div class="btn" id="sumarProd1">Agregar</div></div>
+                <div class="producto">Remera Azul <div class="btn" id="sumarProd2">Agregar</div></div>
+            </span>
+            <span>
+                <div class="btn" id="btnEj4-1">Ver</div>
+                <div class="btn" id="btnEj4-2">Vaciar</div>
+                <div class="salida" id="salidaEj4">...respuesta</div>
+            </span>
+
+        </div>
+    
+<script src="script/script04.js"></script>
 </body>
 </html>

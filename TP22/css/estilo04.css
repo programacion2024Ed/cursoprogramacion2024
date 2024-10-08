@@ -6,7 +6,7 @@
 body{
     background-color: darkslateblue;
     padding: 1em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -20,14 +20,14 @@ body{
     width: 500px;
 }
 .ejercicio h1{
-    font-size: 1.sem;
+    font-size: 1.5em;
     color: darkslateblue;
 }
-.ejercicio .imput{
+.ejercicio input{
     width: 16em;
 }
 .ejercicio .btn{
-    background-color: darkslateblue;
+    background-color: blue;
     color: white;
     cursor: pointer;
     padding: 0.7em;
@@ -41,3 +41,27 @@ body{
     border: 2px darkslateblue solid;
     width: 100%;
 }
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+/* span{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+    background-color: blue;
+    padding: 10px;
+}
+.salida{
+    padding: 8px;
+    border: solid 2px black;
+
+} */
