@@ -1,42 +1,38 @@
 #mouse{
     display: flex;
     background-color: orange;
-    width: 500px ;
-    height: 500px ;
+    width: 500px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     position: relative;
-
 }
-
-#mouse > span{
+#mouse > span {
     background-color: white;
-    font-size:  0.8em;
-    padding: 0.5em;
+    font-size: 0.8 em;
     position: absolute;
     top: 5px;
     right: 5px;
 }
-
-#KeyEvents{
+#keyEvents {
     display: flex;
     flex-direction: column;
-    gap: 1em;
     width: fit-content;
+    gap: 1em;
 }
 
 #ui{
     display: flex;
-    gap: 0.5m;
+    gap: 0.5em.
 }
 #parrafo{
     width: 300px;
     height: 200px;
     overflow-y: scroll;
-    border:3px solid black;
+    border: 3px solid black;
     box-sizing: content-box;
-    line-height: 1.5em ;
+    line-height: 1.5em;
 }
 #parrafo::-webkit-scrollbar{
     display: none;
@@ -49,5 +45,5 @@
 #barraReferencia{
     width: 10px;
     height: 200px;
-    background-color: gray;
+    background-color: grey;
 }
