@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: ;
+}
+
+.res{
+    background-color: aquamarine;
+    display: flex ;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    
+}
